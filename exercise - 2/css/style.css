@@ -1,0 +1,50 @@
+/* THIS is for the main div */
+.outer {
+    position: absolute;
+    display: table;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+/* THIS is for the position div */
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* THIS is for the div of circle of the clock */
+.circle {
+    padding: 88px 0px;
+    width: 205px;
+    margin: auto;
+    border:10px solid #cc4669;
+    border-radius: 100px;
+}
+
+/* THIS is for the div of all hands of the clock */
+.hand{
+    position: absolute;
+    /* background: black; */
+    padding: 2px;
+    width: 85px;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+    transition: all 0.05s;
+}
+
+/* THIS is for the div of hours hand of the clock */
+.hours {
+    background: black;
+}
+
+/* THIS is for the div of minutes hand of the clock */
+.minutes {
+    background: #da689b;
+}
+
+/* THIS is for the div of circle hand of the clock */
+.seconds{
+        background: #f284a1;
+}

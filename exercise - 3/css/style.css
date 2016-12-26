@@ -1,0 +1,54 @@
+body {
+        background: #55585a;
+}
+/* THIS is for the main div */
+.outer {
+    position: absolute;
+    display: table;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+/* THIS is for the position div */
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+/* ===============********************==================
+ ================= START CSS VARIABLES =================
+ =================********************================== */
+
+ :root {
+    --base: #ff5722;
+    --spacing: 10px;
+    --blur: 10px;
+ }
+
+/* ===============*******************==================
+ ================= END CSS VARIABLES ==================
+ =================*******************================== */
+
+
+h2{
+    color: var(--base);
+}
+
+
+/* this is for the alignment/width of the input - first two */
+input.alignment{
+    width: 100px;
+    margin: auto;
+}
+
+/* for the image*/
+.img{
+        width: 30%;
+        padding: var(--spacing);
+        background: var(--base);
+        filter: blur(var(--blur));
+}
+
+
