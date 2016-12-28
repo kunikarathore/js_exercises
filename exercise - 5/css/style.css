@@ -1,0 +1,42 @@
+/* THIS is for the main div */
+.outer {
+    position: absolute;
+    display: table;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+/* THIS is for the position div */
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* THIS is for the all the sound plus text divs*/
+.button_global{
+    color: #ffffff;
+    padding: 15px 0px;
+    width: 9%;
+
+    display: inline-table;
+    background: rgba(3, 3, 3, 0.85);
+    text-shadow: 1px 0px 17px #f3f2ea;
+    font-size: 30px;
+    border: 1px solid #f3f2ea;
+}
+
+/* THIS is for the all the sound plus text div's hover*/
+.button_global:hover {
+	box-shadow: 0px 0px 22px #F3F2E9;
+}
+
+/* THIS is for the class to be added on the press of the alloted button*/
+.shadow{
+	box-shadow: 0px 0px 22px #F3F2E9;
+}
+
+span {
+    font-size: 11px;
+    display: table-row-group;
+}
